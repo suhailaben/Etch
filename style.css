@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: hsla(27, 87%, 67%, 1);
+    background: linear-gradient(225deg, hsla(27, 87%, 67%, 1) 0%, hsla(12, 76%, 52%, 1) 100%);
+}
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+h1 {
+    font-family: Lobster, cursive;
+}
+
+#frame {
+    display: grid;
+    margin: 10%;
+    background-color: #2a9d8f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+
+header {
+    background-color: #264653;
+    display: grid;
+    padding: auto 5%;
+}
+
+h1 {
+    font-size: 11vw;
+    color: #FFF;
+    background-color: #264653;
+    justify-self: center;
+}
+
+#core {
+    display: grid;
+}
+
+
+main {
+    background-color: #ddbdd5;
+    font-size: 10vw;
+    display: grid;
+}
