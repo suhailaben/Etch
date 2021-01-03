@@ -24,7 +24,7 @@ h1 {
 header {
     background-color: #264653;
     display: grid;
-    padding: auto 5%;
+    padding: 2% 5%;
 }
 
 h1 {
@@ -32,6 +32,7 @@ h1 {
     color: #FFF;
     background-color: #264653;
     justify-self: center;
+    margin: 0px;
 }
 
 #core {
@@ -43,4 +44,15 @@ main {
     background-color: #ddbdd5;
     font-size: 10vw;
     display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+main > section {
+    background-color: #E76F51;
+    padding-top: 100%;
+}
+
+.active {
+    background-color: #E9C46A;
 }
